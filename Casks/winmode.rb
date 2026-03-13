@@ -1,6 +1,6 @@
 cask "winmode" do
-  version "1.1.5"
-  sha256 "b34e419a05bf117219ebeba5bb1bf68554c94c96b484fa8a50ccc2dbaf27fd9a"
+  version "1.1.6"
+  sha256 "dbd178935a7105f4a4387d4302d66990053b104ced446ae8ec53d0e49a644387"
 
   url "https://github.com/reidmaker/homebrew-apps/releases/download/v#{version}/WinMode-#{version}.zip"
   name "WinMode"
