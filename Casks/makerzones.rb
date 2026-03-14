@@ -8,8 +8,8 @@
 # 4. Test locally: brew install --cask ./makerzones.rb
 
 cask "makerzones" do
-  version "1.1.0"
-  sha256 "0454a7ffe3a4d3e31ba4d7452f4fea29c479abc5b0451c2899d241768eb507da"
+  version "1.2.0"
+  sha256 "4b41f1aecd5d3a3aec11d0f641645e4ff6a174d29454d2991391b7356f442791"
 
   url "https://github.com/makersoft-ai/homebrew-apps/releases/download/v#{version}/MakerZones-#{version}.zip"
   name "MakerZones"
@@ -24,7 +24,7 @@ cask "makerzones" do
     "~/Library/Logs/MakerZones",
     "~/.config/makerzones",
     "~/Library/Mobile Documents/com~apple~CloudDocs/MakerZones",
-    "~/Library/Preferences/com.makerzones.plist",
+    "~/Library/Preferences/ai.makersoft.makerzones.plist",
   ]
 
   caveats <<~EOS
