@@ -1,6 +1,6 @@
 cask "winmode" do
-  version "1.3.1"
-  sha256 "1a8bb97c5400eacd1f7f4a88e45f91180e67daf839e5837c1109e7c05989b6c9"
+  version "1.3.2"
+  sha256 "2da4c22486b30d58a68b97a17226b62cf3e8c9c2c3745ca85c1fc6742514c2b8"
 
   url "https://github.com/makersoft-ai/homebrew-apps/releases/download/v#{version}/WinMode-#{version}.zip"
   name "WinMode"
@@ -24,7 +24,5 @@ cask "winmode" do
     WinMode requires Accessibility permissions to remap keys and manage windows.
     After installation, grant access in:
       System Settings > Privacy & Security > Accessibility
-
-    WinMode runs in the menu bar. Click the icon to open Settings.
   EOS
 end
