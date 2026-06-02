@@ -1,6 +1,6 @@
 cask "makerzones" do
-  version "1.3.2"
-  sha256 "808d1928c560030f6cbf2d622eae0925c9f5ff5a52ef0b3095007af532ba177e"
+  version "1.3.3"
+  sha256 "a37369ea56f7f19ee23b965185979cfaffa45d0e3fea36ea756d5133748973a6"
 
   url "https://github.com/makersoft-ai/homebrew-apps/releases/download/v#{version}/MakerZones-#{version}.zip"
   name "MakerZones"

@@ -1,6 +1,6 @@
 cask "winmode" do
-  version "1.3.2"
-  sha256 "2da4c22486b30d58a68b97a17226b62cf3e8c9c2c3745ca85c1fc6742514c2b8"
+  version "1.3.3"
+  sha256 "24566c17a82a4304bfebba8731ef82fc82a0a55616117c6e5b2fffdb22332c17"
 
   url "https://github.com/makersoft-ai/homebrew-apps/releases/download/v#{version}/WinMode-#{version}.zip"
   name "WinMode"
